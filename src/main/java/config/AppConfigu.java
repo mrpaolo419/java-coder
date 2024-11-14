@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "empleados.repository")
-@EntityScan(basePackages = "empleados.model")
+@EnableJpaRepositories(basePackages = "com.cocina.tienda.repository")
+@EntityScan(basePackages = "com.cocina.tienda.model")
 public class AppConfigu {
 
     @Bean
